@@ -4,4 +4,4 @@
 
 azure-functions
 azure-storage-blob
-PyPDF2
+PyPDF2~=2.0
