@@ -20,8 +20,6 @@ def main(myblob: func.InputStream):
                  f"Blob Size: {myblob.length} bytes")
     
     logging.info(f"Checking this if it works")
-    p = Path(myblob.name)
-    logging.info(f"The path is {p}")
     
     connection_string = os.environ["AzureWebJobsStorage"]
     container_name = "arunakcs"    
