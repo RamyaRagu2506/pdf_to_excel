@@ -34,7 +34,7 @@ def main(myblob: func.InputStream):
 
     # Download the PDF file as a stream
     stream = io.BytesIO()
-    blob_client.download_blob().download_to_stream(stream)
+    #blob_client.download_blob().download_to_stream(stream)
 
     # Use the stream to read the PDF file
     # For example, you could use the PyPDF2 library to extract text from the PDF file
